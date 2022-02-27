@@ -273,9 +273,9 @@ let tags = {
     conn.menu = conn.menu ? conn.menu : {}
 
     let before = conn.menu.before || `
-Halo %name 👋 Saya *Herman Botz* 
+Halo %name 👋 Saya *Shiro-Botz* 
 ╭─◩Info Bot
-│ Bot Name : *${conn.getName(conn.user.jid)}*
+│ Bot Name : *Shiro-Botz*
 │ Mention : @${m.sender.replace(/@.+/, '')}
 │ Version : 10.7.9
 │ Battery : %battery
@@ -365,7 +365,7 @@ Halo %name 👋 Saya *Herman Botz*
 
     externalAdReply: {
 
-                    title: `Herman Botz`,
+                    title: `Shiro-Botz`,
 
                     body: `${ucapanWaktu} ${name}`,
 
