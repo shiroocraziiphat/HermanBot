@@ -280,7 +280,7 @@ let tags = {
 Halo %name :)
 
 ❏ Info Bot
-▷ Bot Name : *${conn.getName(conn.user.jid)}*
+▷ Bot Name : *Shiro-Botz*
 ▷ Mention : @${m.sender.replace(/@.+/, '')}
 ▷ Version : 1
 ▷ Battery : %battery
@@ -361,9 +361,7 @@ Halo %name :)
 
       p: _p, uptime, muptime,
 
-      npmname: package.name,
-
-      npmdesc: package.description,
+      npmname: Shiro-Botz,
 
       version: package.version,
 
